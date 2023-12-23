@@ -1,6 +1,7 @@
 #!/bin/bash
 
-cat requirements/ascii.txt | sed "s/\(.*\)/\x1b[35m\1\x1b[0m/" && echo ""
+cat requirements/ascii.txt | sed "s/\(.*\)/\x1b[35m\1\x1b[0m/"
+echo "https://github.com/valentingorr/dotfiles" && echo ""
 
 sudo apt update && sudo apt upgrade -y
 
