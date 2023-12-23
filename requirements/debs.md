@@ -1,0 +1,12 @@
+git
+curl
+wget
+tmux
+neofetch
+htop
+fzf
+g++
+exuberant-ctags
+ncdu
+zsh
+npm
