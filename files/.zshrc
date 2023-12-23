@@ -22,6 +22,7 @@ plugins=(
 
 alias nv=nvim
 alias g=git
+alias py=python3.11
 
 mkcd() {
 	mkdir -p $1 && cd $1
