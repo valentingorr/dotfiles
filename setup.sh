@@ -4,7 +4,7 @@ cat requirements/ascii.txt | sed "s/\(.*\)/\x1b[35m\1\x1b[0m/" && echo ""
 
 sudo apt update && sudo apt upgrade -y
 
-debs_list="./requirements/debs.md"
+debs_list="./requirements/debs.txt"
 sudo apt install -y $(paste -s -d ' ' "$debs_list")
 clear
 
@@ -30,7 +30,7 @@ sudo ln -s /usr/local/node/bin/node /usr/local/bin/node
 clear
 
 echo "Installing Node Packages..."
-np_list=$(paste -s -d ' ' "./requirements/node_packages.md")
+np_list=$(paste -s -d ' ' "./requirements/node_packages.txt")
 echo
 echo "install $np_list"
 echo

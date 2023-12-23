@@ -6,6 +6,8 @@
 ██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║   | - GIT
 ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝   | - AND MORE !
 ```
+[![debs amount: 11](https://img.shields.io/badge/debs-12-purple)](requirements/debs.txt)
+[![node packages amount: 4](https://img.shields.io/badge/node%20packages-4-purple)](requirements/node_packages.txt)
 
 1. Clone this repository :
 ```bash
