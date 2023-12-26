@@ -10,3 +10,5 @@ exuberant-ctags
 ncdu
 zsh
 npm
+ripgrep
+fd-find
