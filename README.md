@@ -25,7 +25,4 @@ chmod +x setup.sh
 sudo ./setup.sh
 ```
 
-4. Logout then run :
-```bash
-source ~/.zshrc
-```
+4. Logout
