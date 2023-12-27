@@ -12,3 +12,4 @@ zsh
 npm
 ripgrep
 fd-find
+python3-pip
