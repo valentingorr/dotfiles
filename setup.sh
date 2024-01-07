@@ -3,7 +3,7 @@
 cat requirements/ascii.txt | sed "s/\(.*\)/\x1b[35m\1\x1b[0m/"
 echo "https://github.com/valentingorr/dotfiles" && echo ""
 
-sudo pacman -Syyu
+sudo pacman -Syyu --noconfirm
 
 packages_list="./requirements/packages.txt"
 sudo pacman -S --noconfirm - <$(paste -s -d ' ' "$packages_list")
