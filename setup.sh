@@ -3,31 +3,10 @@
 cat requirements/ascii.txt | sed "s/\(.*\)/\x1b[35m\1\x1b[0m/"
 echo "https://github.com/valentingorr/dotfiles" && echo ""
 
-sudo apt update && sudo apt upgrade -y
+sudo pacman -Syyu
 
-debs_list="./requirements/debs.txt"
-sudo apt install -y $(paste -s -d ' ' "$debs_list")
-clear
-
-echo "Installing Neovim..."
-echo
-curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
-chmod u+x nvim.appimage
-./nvim.appimage --appimage-extract
-sudo mv squashfs-root /
-sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
-rm nvim.appimage
-rm -rf squashfs-root
-clear
-
-echo "Installing NodeJS..."
-echo
-curl -LO https://nodejs.org/download/release/v21.2.0/node-v21.2.0-linux-x64.tar.gz
-tar -xzf node-v21.2.0-linux-x64.tar.gz
-sudo mv node-v21.2.0-linux-x64 /usr/local/node/
-rm node-v21.2.0-linux-x64.tar.gz
-rm -rf node-v21.2.0-linux-x64/
-sudo ln -s /usr/local/node/bin/node /usr/local/bin/node
+packages_list="./requirements/packages.txt"
+sudo pacman -S --noconfirm - <$(paste -s -d ' ' "$packages_list")
 clear
 
 echo "Installing Node Packages..."

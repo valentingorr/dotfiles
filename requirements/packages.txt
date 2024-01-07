@@ -9,8 +9,9 @@ g++
 exuberant-ctags
 ncdu
 zsh
+nodejs
 npm
 ripgrep
-fd-find
+fd
 python3-pip
 tree
