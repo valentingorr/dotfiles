@@ -7,7 +7,7 @@
 ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝   | - AND MORE !
 ```
 [![arch packages amount: 17](https://img.shields.io/badge/arch%20packages-17-purple)](requirements/debs.txt)
-[![node packages amount: 4](https://img.shields.io/badge/node%20packages-4-purple)](requirements/node_packages.txt)
+[![node packages amount: 5](https://img.shields.io/badge/node%20packages-5-purple)](requirements/node_packages.txt)
 
 1. Clone this repository :
 ```bash
