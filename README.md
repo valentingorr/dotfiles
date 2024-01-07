@@ -6,7 +6,7 @@
 ██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║   | - GIT
 ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝   | - AND MORE !
 ```
-[![arch packages amount: 17](https://img.shields.io/badge/debs-17-purple)](requirements/debs.txt)
+[![arch packages amount: 17](https://img.shields.io/badge/arch%20packages-17-purple)](requirements/debs.txt)
 [![node packages amount: 4](https://img.shields.io/badge/node%20packages-4-purple)](requirements/node_packages.txt)
 
 1. Clone this repository :
